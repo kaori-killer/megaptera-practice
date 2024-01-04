@@ -10,4 +10,3 @@
 (계속 써먹는 개발 환경을 문서로 만들자 [프론트엔드 편])[https://yoosojeong.tistory.com/6]
 
 바닥부터 개발 환경을 만드는 게 귀찮으시다면 GitHub에 올린 다음에 Clone해서 Template처럼 사용하시면 됩니다.
-
