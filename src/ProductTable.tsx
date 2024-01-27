@@ -8,7 +8,10 @@ type ProductCategoryProps = {
     products: Product[];
   }
 
-export default function ProductTable({ products }: ProductCategoryProps) {
+export default function ProductTable({
+  products,
+
+}: ProductCategoryProps) {
   const categories = selectCategories(products);
 
   return (

@@ -1,3 +1,5 @@
+import Product from '../types/Product';
+
 function selectProducts(
   products: Product[],
   category: string,
