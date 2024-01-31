@@ -1,4 +1,4 @@
-import FilterableProductTable from './src/FilterableProductTable';
+import FilterableProductTable from './src/components/FilterableProductTable';
 
 const products = [
   {

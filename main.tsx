@@ -2,7 +2,14 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 
-function main() {
+async function main() {
+  const url = 'http://localhost:3000/products';
+  const response = await fetch(url);
+  const data = await response.json();
+  const { products } = data;
+
+  console.log(products);
+
   const container = document.getElementById('root');
   if (!container) {
     return;
